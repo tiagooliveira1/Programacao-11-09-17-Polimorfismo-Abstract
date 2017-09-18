@@ -36,6 +36,9 @@ public class MainPessoas {
 			
 			// .pagarBonus neste caso é um exemplo clássico de polimorfismo
 			System.out.println(func.getNome() +" "+  func.pagarBonus() );
+			if(func instanceof Diretor) {
+				System.out.println("[E um diretor!");
+			}
 		}
 	}
 	
